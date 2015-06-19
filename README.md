@@ -77,8 +77,6 @@ $ yo kraken
 ...
 ```
 
-<!-- To run your application, just go into the newly created directory and type `npm start`. -->
-
 To run your application, just go into the newly created directory and type these commands:
 
 ```shell
@@ -95,7 +93,7 @@ Listening on 8000
 To initialize bower run `bower init` then follow the commands.
 
 ```shell
-? name: (YourApplicationName) 
+? name: (YourApplicationName)
 ? version: (0.0.0)
 ? description:
 ? main file: (index.js)
