@@ -26,7 +26,7 @@ Already familiar with the generator? [Skip right to the new stuff](#warning-new-
 ```shell
 $ [sudo] npm install -g yo generator-kraken bower
 ```
- 
+
 ### Usage
 
 ```shell
@@ -77,10 +77,13 @@ $ yo kraken
 ...
 ```
 
-To run your application, just go into the newly created directory and type `npm start`.
+<!-- To run your application, just go into the newly created directory and type `npm start`. -->
+
+To run your application, just go into the newly created directory and type these commands:
 
 ```shell
 $ cd HelloWorld
+$ npm install
 $ npm start
 
 > helloworld@0.0.1 start ~/HelloWorld
@@ -89,6 +92,28 @@ $ npm start
 Listening on 8000
 ```
 
+To initialize bower run `bower init` then follow the commands.
+
+```shell
+? name: (YourApplicationName) 
+? version: (0.0.0)
+? description:
+? main file: (index.js)
+what types of modules does this package expose? (Press <space> to select)
+❯◯ amd
+ ◯ es6
+ ◯ globals
+ ◯ node
+ ◯ yui
+? keywords:
+? authors:
+? license: (MIT)
+? homepage:
+? set currently installed components as dependencies? (y/N)
+? add commonly ignored files to ignore list? (Y/n)
+? would you like to mark this package as private which prevents it from being accidentally published to the registry? (y/N)
+? Looks good? (Y/n)
+```
 
 ### Project Structure
 
